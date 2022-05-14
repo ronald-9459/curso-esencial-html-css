@@ -1,0 +1,72 @@
+/* html{
+  font-size: 16px;     por default el parrafo es de 16px
+} */
+@font-face {
+  font-family: charter1;
+  src: url('../fonts/charter-italic.otf');
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: charter2;
+  src: url('../fonts/charter-bold.otf');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: charter3;
+  src: url('../fonts/charter-bold-italic.otf');
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: charter4;
+  src: url('../fonts/charter-regular.otf');
+  font-style: italic;
+  font-weight: bold;
+}
+:root{
+  font-size: 16px;
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
+
+}
+
+body{
+  color: #212121;
+  font-family: charter4;
+}
+a{
+  color: var(--gray);
+}
+
+h1{
+  font-size: 60px;
+  /* font-size: e.75em; *60/16 */
+  /* text-decoration: underline; */
+}
+header{
+  font-size: 14px;
+  /* width: 80vw; */
+  color: var(--gray10);
+}
+header a{
+  color: var(--gray10);
+  text-decoration: none;
+}
+header a:hover{
+  color: var(--gray30);
+}
+
+nav details summary{
+  font-weight: bold;
+}
+
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 24px;
+  /* font-size: 1.5em; */
+}
